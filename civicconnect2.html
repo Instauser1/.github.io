@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Water Usage Management</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      background: #e0f7fa;
+      color: #004d40;
+    }
+    header {
+      background: #00796b;
+      color: white;
+      padding: 1rem;
+      text-align: center;
+    }
+    nav {
+      background: #004d40;
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      padding: 0.5rem;
+    }
+    nav a {
+      color: white;
+      margin: 0.5rem 1rem;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    nav a:hover {
+      text-decoration: underline;
+    }
+    section {
+      padding: 2rem;
+    }
+    h2 {
+      color: #00695c;
+    }
+    .form-group {
+      margin-bottom: 1rem;
+    }
+    label {
+      display: block;
+      font-weight: bold;
+    }
+    input, textarea, select {
+      width: 100%;
+      padding: 0.5rem;
+      margin-top: 0.3rem;
+      border-radius: 4px;
+      border: 1px solid #ccc;
+    }
+    button {
+      background: #00796b;
+      color: white;
+      padding: 0.6rem 1.2rem;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+    button:hover {
+      background: #004d40;
+    }
+    footer {
+      background: #004d40;
+      color: white;
+      text-align: center;
+      padding: 1rem;
+      margin-top: 2rem;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>Water Usage Management</h1>
+  <p>Promoting sustainable water practices for a better future</p>
+</header>
+
+<nav>
+  <a href="https://smartnet.niua.org/water-projects" target="_blank">Ongoing Water Projects</a>
+  <a href="https://pmgsy.nic.in/" target="_blank">Govt. Rural Water Initiatives</a>
+  <a href="https://forms.gle/x9SampleFormForCampaign" target="_blank">Join Campaign</a>
+  <a href="https://forms.gle/x9SampleFormForCompetition" target="_blank">Competition Entry</a>
+</nav>
+
+<section id="track">
+  <h2>Track Your Water Usage</h2>
+  <form>
+    <div class="form-group">
+      <label for="name">Your Name</label>
+      <input type="text" id="name" placeholder="Enter your name">
+    </div>
+    <div class="form-group">
+      <label for="usage">Daily Usage (Liters)</label>
+      <input type="number" id="usage" placeholder="e.g., 120">
+    </div>
+    <div class="form-group">
+      <label for="location">Location</label>
+      <input type="text" id="location" placeholder="City or Area">
+    </div>
+    <button type="submit">Submit Usage</button>
+  </form>
+</section>
+
+<section id="report">
+  <h2>Report a Water Leak</h2>
+  <form>
+    <div class="form-group">
+      <label for="report-location">Leak Location</label>
+      <input type="text" id="report-location" placeholder="Street or Landmark">
+    </div>
+    <div class="form-group">
+      <label for="details">Details</label>
+      <textarea id="details" rows="4" placeholder="Describe the leak..."></textarea>
+    </div>
+    <button type="submit">Submit Report</button>
+  </form>
+</section>
+
+<section id="tips">
+  <h2>Smart Water Saving Tips</h2>
+  <ul>
+    <li>Fix dripping taps immediately.</li>
+    <li>Use a bucket instead of a hose to wash cars.</li>
+    <li>Install low-flow showerheads.</li>
+    <li>Harvest rainwater during the monsoon.</li>
+  </ul>
+</section>
+
+<section id="campaigns">
+  <h2>Ongoing Campaigns</h2>
+  <p>Join our <strong>#SaveEveryDrop</strong> movement and track your household water footprint!</p>
+  <p>Next event: Community water audit workshop – April 28 at Pune Nagar Hall.</p>
+</section>
+
+<footer>
+  <p>© 2025 WaterSense India | Designed for civic participation</p>
+</footer>
+
+</body>
+</html>
